@@ -1,7 +1,7 @@
 package scan
 
 import (
-	"github.com/rthornton128/calc/token"
+	"github.com/tarsisazevedo/calc/token"
 	"unicode"
 )
 
