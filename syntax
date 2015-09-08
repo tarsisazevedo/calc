@@ -1,0 +1,6 @@
+file ::= expr
+expr ::= "(" operator whitespace expr (whitespace expr)+ ")" | integer
+operator ::= [+-*/%]
+whitespace ::= [ \t\r\n]+
+integer ::= digit+
+digit ::= [0-9]
